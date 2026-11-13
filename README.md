@@ -80,9 +80,7 @@ Para utilizar um Algoritmo Genético na otimização de funções matemáticas, 
 A conversão é realizada pela fórmula:
 
 $$
-\begin{cases}
 x = - a + \frac{d}{2^n - 1} . (b - a)
-\end{cases}
 $$
 
 Onde:
