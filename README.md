@@ -7,6 +7,13 @@
 - [Etapas do algoritmo genético](#etapas-do-algoritmo-genético)
 - [Técnicas para melhorar eficiência do algoritmo](#técnicas-para-melhorar-eficiência-do-algoritmo)
 - [Tipos de Algoritmos genéticos](#tipos-de-algoritmos-genéticos)
+- [Base de Dados](#base-de-dados)
+- [Funções Benchmark](#funções-de-benchmark)
+- [Representação de cromossomos](#representação-dos-cromossomos)
+- [Conversão de valores binários para reais](#conversão-de-valores-binários-para-reais)
+- [Algoritmos Selecionados](#algoritmos-selecionados)
+- [Base de Dados Utilizados](#bases-de-dados-utilizados)
+- [Resultados dos Experimentos](#resultado-dos-experimentos)
 - [Glossário](#glossário)
 
 ## O que são algoritmos genéticos?
@@ -91,9 +98,29 @@ Onde:
 - 𝑥: valor real obtido.
 
 
-## Algoritmos Utilizados
+## Algoritmos Selecionados
+
+### Caixeiro Viajante
+
+O algoritmo do Caixeiro Viajante consiste em encontrar a melhor rota possível em um grafo completo, levando em conta a distância entre uma cidade e outra.
+
+- **Fórmula de Aptidão:**
+
+$$d = \text{round}\left(\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\right)$$
+
+- **Método de seleção de indivíduos para próximas gerações:** torneio com elitismo
+
+- **Método de corte para crossover:** separando o cromossomo em 4 partes iguais, resultado em 25% de alelos em cada parte
 
 ## Bases de Dados Utilizados 
+
+### Caixeiro Viajante
+
+- berlin52
+- eil101
+- kroA100
+- rat99
+- st70
 
 ## Resultado dos Experimentos 
 
